@@ -40,13 +40,14 @@ public class Java8Demo {
 
     private void start()  {
 
-	System.out.println(words.stream().findFirst());
-
-	System.out.println(words.stream().findAny());
-
-	System.out.println(words.stream().allMatch(s -> s.length() > 2));
-	System.out.println(words.stream().anyMatch(s -> s.length() == 15));
-	words.stream().filter(s -> s.length() == 15).forEach(System.out::println);
+    	// Voorbeelden
+		System.out.println(words.stream().findFirst());
+	
+		System.out.println(words.stream().findAny());
+	
+		System.out.println(words.stream().allMatch(s -> s.length() > 2));
+		System.out.println(words.stream().anyMatch(s -> s.length() == 15));
+		words.stream().filter(s -> s.length() == 15).forEach(System.out::println);
 
     }
 }
