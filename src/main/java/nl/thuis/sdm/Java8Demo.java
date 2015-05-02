@@ -48,6 +48,7 @@ public class Java8Demo {
 		System.out.println(words.stream().allMatch(s -> s.length() > 2));
 		System.out.println(words.stream().anyMatch(s -> s.length() == 15));
 		words.stream().filter(s -> s.length() == 15).forEach(System.out::println);
+		words.stream().filter(s -> s.length() == 14).forEach(System.out::println);
 
     }
 }
