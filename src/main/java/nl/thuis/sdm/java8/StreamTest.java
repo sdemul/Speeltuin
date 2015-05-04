@@ -9,22 +9,24 @@ public class StreamTest {
 
 	public static void main(String[] args) {
 		
-////		File[] files = new File("/Users/sjaakdemul/Pictures").listFiles(new FileFilter() {
-////			
-////			@Override
-////			public boolean accept(File f) {
-////				return f.isDirectory();
-////			}
-////		});
-////		for (File file : files) {
-////			System.out.println(file.getName());
-////		}
-//
-////		FileFilter ff = (File f) -> f.isDirectory();
-////		File[]  files = new File("/Users/sjaakdemul/Pictures").listFiles(ff);
-////		for (File file : files) {
-////			System.out.println(file.getName());
-////		}
+		// Tweede commit 
+		
+//		File[] files = new File("/Users/sjaakdemul/Pictures").listFiles(new FileFilter() {
+//			
+//			@Override
+//			public boolean accept(File f) {
+//				return f.isDirectory();
+//			}
+//		});
+//		for (File file : files) {
+//			System.out.println(file.getName());
+//		}
+
+//		FileFilter ff = (File f) -> f.isDirectory();
+//		File[]  files = new File("/Users/sjaakdemul/Pictures").listFiles(ff);
+//		for (File file : files) {
+//			System.out.println(file.getName());
+//		}
 
 // Commit van GitHub
 
