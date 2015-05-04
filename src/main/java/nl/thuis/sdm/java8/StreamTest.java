@@ -26,6 +26,8 @@ public class StreamTest {
 ////			System.out.println(file.getName());
 ////		}
 
+// Commit van GitHub
+
 		List<String> strings = new ArrayList<>();
 		strings.add("Een");
 		strings.add("Twee");
