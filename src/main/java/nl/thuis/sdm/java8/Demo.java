@@ -1,4 +1,4 @@
-package nl.thuis.sdm;
+package nl.thuis.sdm.java8;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,12 +11,12 @@ import java.util.List;
  * Date: 5/2/15
  * Time: 9:31 AM
  */
-public class Java8Demo {
+public class Demo {
 
     private List<String> words = new ArrayList<>();
 
     public static void main(String[] args) {
-	Java8Demo java8Demo = new Java8Demo();
+	Demo java8Demo = new Demo();
 	java8Demo.init();
 	java8Demo.start();
     }
