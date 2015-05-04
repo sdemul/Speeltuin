@@ -10,6 +10,7 @@ public class StreamTest {
 	public static void main(String[] args) {
 		
 		// Tweede commit 
+		// Derde commit
 		
 //		File[] files = new File("/Users/sjaakdemul/Pictures").listFiles(new FileFilter() {
 //			
